@@ -4,9 +4,19 @@
     box-sizing:border-box;
 }
 body{
-    background-color: #f0f0f0;
+    background-color: linear-granding (white, grey);
 }
 .col-1{
-    font-family: Arial, sans-serif;
-
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
+.box-text{
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: rgba(2, 2, 43, 0.904);
+}
+p, h1{
+    font-size: 0.6rem;
+}
+
